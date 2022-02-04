@@ -2,6 +2,8 @@
 
 ### Crypto Informational Tool / Technical Assessment
 
+A React web application that fetches data from the CoinGecko API and displays the information in table.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
