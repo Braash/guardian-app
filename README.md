@@ -2,7 +2,7 @@
 
 ### Crypto Informational Tool / Technical Assessment
 
-A React web application that fetches data from the CoinGecko API and displays the information in table.
+A React web application that fetches data from the CoinGecko API and displays the information in a table.
 
 # Getting Started with Create React App
 
