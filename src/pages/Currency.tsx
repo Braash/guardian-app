@@ -158,9 +158,8 @@ const Currency: React.FC = () => {
     }, 1000);
 
     return (
-      <div>
-              
-                  <div className={classes.BackgroundContent}>
+        <div>
+             <div className={classes.BackgroundContent}>
                     <div  className={classes.Container}>
                         <div className={classes.Container2}>
                           <h1 className={classes.Symbol}>{symbol}</h1>
@@ -182,9 +181,9 @@ const Currency: React.FC = () => {
                         {description}
                       </div>
                       <img onClick={() => navigate('/', { replace: true })} className={classes.Arrow} src={arrow}/> 
-                  </div>
-              <Footer/>
-      </div>
+              </div>
+            <Footer/>
+       </div>
     )
 }
 
