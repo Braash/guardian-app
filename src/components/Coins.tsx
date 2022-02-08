@@ -78,8 +78,6 @@ const Coins: React.FC= () => {
           .get(TrendingCoins)
           .then(res => {
             setCoins(res.data);
-            console.log(res.data);
-            console.log(coins);
           })
           .catch(error => console.log(error));
       }, []);
