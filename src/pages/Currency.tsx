@@ -112,7 +112,6 @@ const Currency: React.FC = () => {
 
         if (typeof value === 'string') {
             const parse = JSON.parse(value) 
-            console.log(parse.id)
             setCoin(parse)
         }
     }, []);
